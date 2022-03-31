@@ -21,4 +21,33 @@
   .container-2 {
     @apply max-w-[1700px] w-[80%] mx-[auto];
   }
+  .roadmap-circle {
+    box-shadow: 0 0px 15px 30px #2d3044;
+  }
+
+  .gradient-bg-welcome {
+    @apply absolute inset-0 z-[-5] bg-gradient-bg-welcome blur-[100px] rounded-bl-[50%] rounded-br-[50%];
+  }
+
+  .performance-inhancer {
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+  }
+}
+
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 101 !important;
+  transition: all 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+.black-screen.show {
+  opacity: 1;
+  pointer-events: visible;
 }

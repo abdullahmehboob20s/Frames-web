@@ -1,14 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import RoadmapCard from "./RoadmapCard";
 
 function Roadmap() {
+  const roadmap = useRef(null);
+  const roadmapLine = useRef(null);
+  const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    const handler = () => {
+      let a = window.scrollY - roadmap!.current!["offsetTop"];
+      let value = a + window.innerHeight / 2;
+      setValue(value);
+    };
+
+    window.addEventListener("scroll", handler);
+
+    return () => {
+      window.removeEventListener("scroll", handler);
+    };
+  });
+
   return (
     <div className="container">
       <h1 className="text-center text-white font-display text-[50px] font-black mb-[78px]">
         Road Map
       </h1>
 
-      <div className="space-y-8">
+      <div className="space-y-8 relative w-fit mx-auto" ref={roadmap}>
+        {/* LINE */}
+        <div className="w-[3px] h-full bg-[#969696] absolute top-[1%] left-[-13%] overflow-hidden">
+          <div
+            className="absolute top-0 left-0 w-full h-[200px] bg-mahron transition-all duration-[.3s] ease-[ease]"
+            style={{ height: value + "px" }}
+            ref={roadmapLine}
+          ></div>
+        </div>
+
         <RoadmapCard
           title="Phase 1 - Community"
           desc={
