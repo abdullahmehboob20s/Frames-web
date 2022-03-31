@@ -16,7 +16,11 @@ function TeamCard({
 }) {
   return (
     <div className="flex-1 bg-black px-[22px] py-[22px] sm:px-[36px] sm:py-[40px] rounded-[10px] text-white">
-      <img src={img} className="w-full mb-4 sm:mb-9" alt="" />
+      <img
+        src={img}
+        className="w-full mb-4 sm:mb-9 lg:w-[80%] lg:mx-auto"
+        alt=""
+      />
 
       <div className="mb-[10px]">
         <h1 className="text-[16px] sm:text-[20px] font-[700] font-display text-center text-white mb-2">
