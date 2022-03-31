@@ -14,8 +14,8 @@ import {
 function App() {
   return (
     <div className="min-h-screen ">
-      <div className="relative z-[1] overflow-visible pb-[150px]  mb-8">
-        {/* <div className="gradient-bg-welcome"></div> */}
+      <div className="relative z-[1] overflow-visible pb-[40px] lg:pb-[150px]  mb-8">
+        <div className="gradient-bg-welcome"></div>
         {/* <div className="absolute inset-0 z-[-5] bg-center bg-[url(assets/images/footer-blob.png)]"></div> */}
 
         <div className="mb-3 lg:mb-8">
@@ -26,28 +26,28 @@ function App() {
         </div>
         <NFTS />
       </div>
-      <div className="mb-[150px]">
+      <div className="mb-[60px] sm:mb-[80px] lg:mb-[150px]">
         <About />
       </div>
-      {/* <div className="mb-[100px]">
+      <div className="mb-[60px] sm:mb-[80px] lg:mb-[100px]">
         <Roadmap />
       </div>
-      <div className="mb-[150px]">
+      <div className="mb-[60px] sm:mb-[80px] lg:mb-[150px]">
         <Team />
       </div>
-      <div className="mb-[150px]">
+      <div className="mb-[60px] sm:mb-[80px] lg:mb-[150px]">
         <JoinUsOnDiscord />
       </div>
 
       <div className="relative z-[1] overflow-visible pt-[50px] pb-[100px]">
         <div className="bg-no-repeat bg-cover absolute inset-0 z-[-5] bg-[url(assets/images/footer-blob.png)]"></div>
-        <div className="mb-[100px]">
+        <div className="mb-[60px] sm:mb-[80px] lg:mb-[100px]">
           <Faq />
         </div>
         <div>
           <Footer />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

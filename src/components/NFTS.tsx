@@ -1,6 +1,6 @@
 import React from "react";
 import nftImg from "assets/images/nftImg.png";
-import nftFrame from "assets/images/nftFrame.png";
+import nftFrame from "assets/images/nftFrame-2.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";

@@ -15,14 +15,14 @@ function TeamCard({
   designation: string;
 }) {
   return (
-    <div className="flex-1 bg-black px-[36px] py-[40px] rounded-[10px] text-white">
-      <img src={img} className="w-full mb-9" alt="" />
+    <div className="flex-1 bg-black px-[22px] py-[22px] sm:px-[36px] sm:py-[40px] rounded-[10px] text-white">
+      <img src={img} className="w-full mb-4 sm:mb-9" alt="" />
 
       <div className="mb-[10px]">
-        <h1 className="text-[20px] font-[700] font-display text-center text-white mb-2">
+        <h1 className="text-[16px] sm:text-[20px] font-[700] font-display text-center text-white mb-2">
           {title}
         </h1>
-        <p className="text-center text-white text-[15px] opacity-[.5] ">
+        <p className="text-center text-white text-[14px] sm:text-[15px] opacity-[.5] ">
           {designation}
         </p>
       </div>

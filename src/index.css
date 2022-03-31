@@ -19,7 +19,7 @@
     @apply max-w-[1700px] w-[90%] mx-[auto];
   }
   .container-2 {
-    @apply max-w-[1700px] w-[80%] mx-[auto];
+    @apply max-w-[1700px] w-[90%] sm:w-[80%] mx-[auto];
   }
   .roadmap-circle {
     box-shadow: 0 0px 15px 30px #2d3044;
@@ -50,4 +50,10 @@
 .black-screen.show {
   opacity: 1;
   pointer-events: visible;
+}
+
+.swiper-slide-shadow-right,
+.swiper-slide-shadow-left {
+  box-shadow: none !important;
+  background-image: none !important;
 }
