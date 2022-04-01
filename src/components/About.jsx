@@ -43,7 +43,7 @@ function About() {
             publishing
           </p>
 
-          <button className="font-display text-base text-white bg-yellow-red-gradient py-[12px] sm:py-[30px] px-[20px] sm:px-[46px] sm:rounded-[20px] rounded-[5px]">
+          <button className="font-display text-base text-white bg-yellow-red-gradient py-[12px] sm:py-[18px] px-[20px] sm:px-[30px] sm:rounded-[14px] rounded-[5px]">
             Get Started
           </button>
         </div>

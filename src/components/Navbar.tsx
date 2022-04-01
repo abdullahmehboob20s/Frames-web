@@ -42,43 +42,43 @@ const Navbar = () => {
         </button>
         <a
           href="/"
-          className="cursor-pointer lg:text-white text-black xl:text-lg lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
+          className="cursor-pointer lg:text-white text-black xl:text-base lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
         >
           About
         </a>
         <a
           href="/"
-          className="cursor-pointer lg:text-white text-black xl:text-lg lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
+          className="cursor-pointer lg:text-white text-black xl:text-base lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
         >
           SPECS
         </a>
         <a
           href="/"
-          className="cursor-pointer lg:text-white text-black xl:text-lg lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
+          className="cursor-pointer lg:text-white text-black xl:text-base lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
         >
           OASIS
         </a>
         <a
           href="/"
-          className="cursor-pointer lg:text-white text-black xl:text-lg lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
+          className="cursor-pointer lg:text-white text-black xl:text-base lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
         >
           COLLECTION
         </a>
         <a
           href="/"
-          className="cursor-pointer lg:text-white text-black xl:text-lg lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
+          className="cursor-pointer lg:text-white text-black xl:text-base lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
         >
           ROADMAP
         </a>
         <a
           href="/"
-          className="cursor-pointer lg:text-white text-black xl:text-lg lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
+          className="cursor-pointer lg:text-white text-black xl:text-base lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
         >
           TEAM
         </a>
         <a
           href="/"
-          className="cursor-pointer lg:text-white text-black xl:text-lg lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
+          className="cursor-pointer lg:text-white text-black xl:text-base lg:text-[14px] font-bold uppercase text-[18px] w-fit lg:w-auto"
         >
           FAQ’S
         </a>
@@ -90,7 +90,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex items-center space-x-4">
-        <button className="xl:py-[18px] sm:py-[10px] py-[8px] xl:px-[32px] sm:px-[18px] px-[14px] rounded-[35px] font-display xl:text-xl text-[11px] sm:text-[14px] bg-yellow-red-gradient text-white capitalize font-black">
+        <button className="xl:py-[12px] xl:px-[24px] xl:text-base sm:py-[10px] py-[8px] sm:px-[18px] px-[14px] rounded-[35px] font-display text-[11px] sm:text-[14px] bg-yellow-red-gradient text-white capitalize font-black">
           Connect Wallet
         </button>
 

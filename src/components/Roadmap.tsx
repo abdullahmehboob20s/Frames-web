@@ -22,7 +22,7 @@ function Roadmap() {
 
   return (
     <div className="container">
-      <h1 className="text-center text-white font-display text-[30px] lg:text-[50px]  font-black mb-[30px] sm:mb-[50px] lg:mb-[78px]">
+      <h1 className="text-center text-white font-display text-[30px] lg:text-[50px]  font-black mb-[30px] sm:mb-[50px] lg:mb-[60px]">
         Road Map
       </h1>
 
@@ -42,7 +42,7 @@ function Roadmap() {
         <RoadmapCard
           title="Phase 1 - Community"
           desc={
-            <p className="text-base xl:text-[28px] font-fira-sans text-white font-normal opacity-[.5] leading-[1.2]">
+            <p className="text-base xl:text-[18px] font-fira-sans text-white font-normal opacity-[.5] leading-[1.2]">
               Community building.
             </p>
           }
@@ -50,7 +50,7 @@ function Roadmap() {
         <RoadmapCard
           title="Phase 2"
           desc={
-            <p className="text-base xl:text-[28px] font-fira-sans text-white font-normal opacity-[.5] leading-[1.2]">
+            <p className="text-base xl:text-[18px] font-fira-sans text-white font-normal opacity-[.5] leading-[1.2]">
               Public Mint Goes Live! Each NFT minted is 0.0777 ETH with at limit
               of 10 per wallet."
             </p>
@@ -59,7 +59,7 @@ function Roadmap() {
         <RoadmapCard
           title="Phase 2"
           desc={
-            <p className="text-base xl:text-[28px] font-fira-sans text-white font-normal opacity-[.5] leading-[1.2]">
+            <p className="text-base xl:text-[18px] font-fira-sans text-white font-normal opacity-[.5] leading-[1.2]">
               Nft on Rarity.Tools and Rarity Sniper Frames AirDrop to 10 Holders
               First Charity Donation"
             </p>
@@ -68,7 +68,7 @@ function Roadmap() {
         <RoadmapCard
           title="40%"
           desc={
-            <p className="text-base xl:text-[20px] font-fira-sans text-white font-normal opacity-[.5]">
+            <p className="text-base xl:text-[18px] font-fira-sans text-white font-normal opacity-[.5]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -80,7 +80,7 @@ function Roadmap() {
         <RoadmapCard
           title="40%"
           desc={
-            <p className="text-base xl:text-[20px] font-fira-sans text-white font-normal opacity-[.5]">
+            <p className="text-base xl:text-[18px] font-fira-sans text-white font-normal opacity-[.5]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of

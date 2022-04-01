@@ -41,7 +41,7 @@ function Accordion({ title, desc }: { title: string; desc: string }) {
         className="h-0 overflow-hidden transition-all duration-[.3s] ease-[ease]"
         ref={accordionBodyRef}
       >
-        <div className=" lg:py-10 py-6 pt-0  px-8 lg:px-14">
+        <div className=" lg:pb-10 pb-6 px-8 lg:px-14">
           <p className="text-base font-roboto text-white opacity-[.5] font-normal">
             {desc}
           </p>
