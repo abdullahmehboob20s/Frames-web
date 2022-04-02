@@ -4,7 +4,7 @@ import Accordion from "./Accordion";
 function Faq() {
   return (
     <div className="sm:container">
-      <div className="bg-darkBlack pb-[40px]  py-[24px] sm:py-[40px] lg:py-[60px] px-[24px] sm:px-[40px] lg:px-[100px] border-2 border-mahron sm:rounded-[34px]">
+      <div className="bg-darkBlack pb-[40px]  py-[24px] sm:py-[40px] lg:py-[40px] px-[24px] sm:px-[40px] lg:px-[80px] border-2 border-mahron sm:rounded-[34px]">
         <h1 className="text-center text-white font-display text-[30px] lg:text-[50px] font-black mb-[30px] sm:mb-[60px]">
           FAQ
         </h1>

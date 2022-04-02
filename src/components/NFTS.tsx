@@ -12,7 +12,7 @@ function NFTS() {
     <div>
       {/* SLIDER */}
       <Swiper
-        slidesPerView={3}
+        slidesPerView={4}
         spaceBetween={80}
         effect={"coverflow"}
         centeredSlides={true}
@@ -28,6 +28,9 @@ function NFTS() {
           modifier: 2,
         }}
         breakpoints={{
+          1000: {
+            slidesPerView: 4,
+          },
           760: {
             slidesPerView: 3,
           },
